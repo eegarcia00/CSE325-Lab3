@@ -1,0 +1,24 @@
+Keaton Jones
+Erik Garcia
+CSE 325
+Zheng
+
+Lab 3
+For task 1: We added the int cps() function call to the following files:
+	    defs.h, user.h, syscall.h, sysproc.c, syscall.c, proc.c, and usys.S.
+            Also we added the file ps.c to call cps() and added it to the Makefile.
+            Then we ran the test as instructed.
+
+For task 2: We created nice.c in order to change the nice value by allowing it
+            to accept 2 arguments, pid and priority. In addition to making nice.c
+            function properly we created a function change_priority() so that we could
+            call it in nice.c. This function call was added to proc.c. We also added the 
+            given lab3test.c to our project, and made sure it was also included in our Makefile.
+            Then we ran the test as instructed.   
+
+For task 3: In task 3 we made sure to add a high priority statement to exec.c. 
+            Another thing that was done was modifying lab3test.c. We added wait()
+            in order for the the parent process to wait for the child process to be
+            done. Then we ran the test as instructed.
+
+For task 4:  
